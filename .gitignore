@@ -1,0 +1,7 @@
+# Dependencias de Node
+node_modules
+
+# Archivo de variables de entorno
+.env
+
+auth/keys/private.key

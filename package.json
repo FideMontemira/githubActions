@@ -1,0 +1,29 @@
+{
+  "name": "express-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch app.js",
+    "test": "jest --detectOpenHandles",
+    "coverage": "jest --collect-coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.5",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "express-validator": "^7.3.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
