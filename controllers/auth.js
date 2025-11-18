@@ -4,6 +4,7 @@ const authService = require('../auth/AuthService');
 const login = async (req, res) => {
     const { email, pass } = req.body;
 
+    
     try {
         const usuario = await Usuario.findOne({ where: { email } });
         if (!usuario) {
